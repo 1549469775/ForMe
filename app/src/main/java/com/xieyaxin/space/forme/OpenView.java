@@ -102,7 +102,9 @@ public class OpenView extends View {
         }
         StringBuffer sb=new StringBuffer();
         for (Integer i:set){
+
             sb.append(""+i);
+
         }
         return sb.toString();
     }
