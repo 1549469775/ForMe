@@ -71,8 +71,10 @@ public class OpenView extends View {
                     break;
                 case R.styleable.OpenView_layerColor:
                     layerColor=a.getColor(attr,Color.YELLOW);
+
                     break;
                 case R.styleable.OpenView_layerAlpha:
+
                     layerAlpha=a.getFloat(attr,0.7f);
                     break;
                 case R.styleable.OpenView_floorView:
