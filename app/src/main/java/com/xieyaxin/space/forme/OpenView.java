@@ -102,9 +102,9 @@ public class OpenView extends View {
         }
         StringBuffer sb=new StringBuffer();
         for (Integer i:set){
-
+            
             sb.append(""+i);
-
+            
         }
         return sb.toString();
     }
@@ -124,7 +124,17 @@ public class OpenView extends View {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-
+//        int widthMode=MeasureSpec.getMode(widthMeasureSpec);
+//        int heightMode=MeasureSpec.getMode(heightMeasureSpec);
+//        int widthSize=MeasureSpec.getSize(widthMeasureSpec);
+//        int heightSize=MeasureSpec.getSize(heightMeasureSpec);
+//        int width;
+//        int height;
+//        if (widthMode==MeasureSpec.EXACTLY){
+//            width=widthSize;
+//        }else {
+//// TODO: 2017/4/19 asdasdasdasdsad 
+//        }
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
     }
