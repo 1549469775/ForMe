@@ -7,4 +7,27 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_autoload"
+        android:orderInCategory="100"
+        android:title="自动加载图片"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_notautoload"
+        android:orderInCategory="100"
+        android:title="手动加载图片"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_size"
+        android:orderInCategory="100"
+        android:title="查看缓存大小"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="清除缓存大小"
+        app:showAsAction="never" />
 </menu>

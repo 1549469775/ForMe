@@ -1,0 +1,15 @@
+Index: app/src/main/java/com/xieyaxin/space/forme/OpenView.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/xieyaxin/space/forme/OpenView.java	(revision 320da232bcb3a8e4c9830533503a68a54840e37e)
++++ app/src/main/java/com/xieyaxin/space/forme/OpenView.java	(revision )
+@@ -74,6 +74,7 @@
+                     break;
+                 case R.styleable.OpenView_layerAlpha:
+                     layerAlpha=a.getFloat(attr,0.7f);
++
+                     break;
+                 case R.styleable.OpenView_floorView:
+                     floorView=a.getResourceId(attr,R.mipmap.ic_launcher);

@@ -3,6 +3,12 @@
     package="com.xieyaxin.space.forme">
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <!--震动权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--在sdcard中创建与删除文件权限-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -10,17 +16,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".MainActivity">
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/AppTheme"-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TestActivity"/>
+        <activity android:name=".ShowPicActivity"/>
     </application>
 
 </manifest>
